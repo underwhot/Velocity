@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- https://www.figma.com/file/89fSGGbTo8vcPEdATAShvl/Velocity?node-id=2%3A2 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleble=0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Velocity</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="page">
+      <!-- @import "header.html" -->
+
+      <div class="main-block">
+        <div class="main-block__image ibg">
+          <div class="main-block__items">
+            <div class="main-block__title">This is Velocity</div>
+            <div class="main-block__buttons">
+              <a href="#" class="main-block__btn btn">sign up</a>
+              <a href="#" class="main-block__btn btn btn-trans">Learn more</a>
+            </div>
+          </div>
+          <img src="img/bg.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="do">
+        <div class="container">
+          <div class="do__top">
+            <div class="do__title title">what we do</div>
+            <div class="do__subtitle subtitle">This is some text inside of a div block</div>
+          </div>
+          <div class="do__columns">
+            <div class="do__item">
+              <div class="do__column do-card">
+                <div class="do-card__icon"><img src="img/icons/01.png" alt=""></div>
+                <div class="do-card__title">Graphic Design</div>
+                <div class="do-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+              </div>
+            </div>
+            <div class="do__item">
+              <div class="do__column do-card">
+                <div class="do-card__icon"><img src="img/icons/02.png" alt=""></div>
+                <div class="do-card__title">Awesome code</div>
+                <div class="do-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat, ex amet eveniet illum atque qui saepe architecto voluptatem facilis molestias placeat tempora consequatur aliquid sequi labore nemo commodi magni.</div>
+              </div>
+            </div>
+            <div class="do__item">
+              <div class="do__column do-card">
+                <div class="do-card__icon"><img src="img/icons/03.png" alt=""></div>
+                <div class="do-card__title">free template</div>
+                <div class="do-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="container">
+          <div class="services__top">
+            <div class="services__title title">services</div>
+            <div class="services__subtitle subtitle">This is some text inside of a div block</div>
+          </div>
+          <div class="services__columns">
+            <div class="services__item">
+              <div class="services__column services-card">
+                <a href="#" class="services-card__image ibg"><img src="img/service/01.jpg" alt=""></a>
+                <a href="#" class="services-card__title">SERVICES one</a>
+                <div class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.</div>
+                <a href="#" class="services-card__btn btn btn-trans">Learn more</a>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__column services-card">
+                <a href="#" class="services-card__image ibg"><img src="img/service/02.jpg" alt=""></a>
+                <a href="#" class="services-card__title">SERVICES two</a>
+                <div class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi non voluptate numquam excepturi quia, officia veritatis maxime cupiditate temporibus beatae.</div>
+                <a href="#" class="services-card__btn btn btn-trans">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div class="container">
+          <div class="tab__top">
+            <div class="tab__title title">Slider Section</div>
+            <div class="tab__subtitle subtitle">This is some text inside of a div block</div>
+          </div>
+          <div class="tab__tabs">
+            <div class="slider">
+              <div class="slider__item">
+                <img src="img/slide/01.jpg" alt="">
+              </div>
+              <div class="slider__item">
+                <img data-lazy="img/slide/02.jpg" alt="">
+              </div>
+              <div class="slider__item">
+                <img data-lazy="img/slide/03.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- @import "footer.html" -->
+    </div>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

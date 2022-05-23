@@ -1,0 +1,145 @@
+.footer {
+}
+.footer-top {
+  padding: 35px 0;
+
+  &__body {
+  }
+
+  &__row {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: $md4+px) {
+      flex-direction: column;
+    }
+  }
+
+  &__column {
+    padding: 0 10px;
+    flex: 0 0 33.333%;
+
+    @media (max-width: $md3+px) {
+      flex: 0 0 50%;
+
+      &:first-child {
+        flex: 1 1 auto;
+        margin: 0 0 30px 0;
+      }
+    }
+    @media (max-width: $md4+px) {
+      margin: 0 0 25px 0;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  &__items {
+  }
+
+  &__title {
+    margin: 0 0 26px 0;
+    font-size: 18px;
+    line-height: 20 / 18 * 100%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    @media (max-width: $md3+px) {
+      margin: 0 0 16px 0;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 25 / 14 * 100%;
+    color: #6A859C;
+  }
+
+  &__social {
+    display: flex;
+  }
+
+  &__links {
+
+    &-icons {
+      margin: 0 0 0 30px;
+
+      li {
+        position: relative;
+
+        .footer-top__link-icon::before {
+          font-family: 'icons';
+          font-size: 20px;
+          position: absolute;
+          top: 0;
+          left: -30px;
+        }
+
+        &:nth-child(1) {
+          .footer-top__link-icon::before {
+            content: '\e903';
+          }
+        }
+        &:nth-child(2) {
+          .footer-top__link-icon::before {
+            content: '\e900';
+          }
+        }
+        &:nth-child(3) {
+          .footer-top__link-icon::before {
+            content: '\e902';
+          }
+        }
+        &:nth-child(4) {
+          .footer-top__link-icon::before {
+            content: '\e901';
+          }
+        }
+        &:nth-child(5) {
+          .footer-top__link-icon::before {
+            content: '\e904';
+          }
+        }
+      }
+    }
+    
+    li {
+      margin: 0 0 6px 0;
+      padding: 0 0 12px 0;
+      border-bottom: 1px solid #668CAD;
+    }
+  }
+
+  &__link {
+    font-size: 13px;
+    line-height: 20 / 13 * 100%;
+    color: #668CAD;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #0082F3;
+    }
+    &:active {
+      color: #0073d8;
+    }
+
+
+  }
+}
+.footer-bottom {
+  padding: 40px 0;
+  background: #383838;
+
+  &__text {
+    font-size: 15px;
+    line-height: 20 / 15 * 100%;
+    text-align: center;
+    color: #9E9E9E;
+  }
+}
+
+.footer-top__links-icons {
+
+}
